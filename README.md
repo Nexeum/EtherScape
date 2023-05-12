@@ -28,7 +28,7 @@ This beta version of the file manager may have the following known issues:
 
 ## Screenshots
 
-![App Screenshot](https://www.researchgate.net/publication/228987804/figure/fig3/AS:646817171652617@1531224639694/FileManager-example-design-architecture-The-runtime-architecture-in-Fig-5-captures-the.png)
+![App Screenshot](https://cdn.ttgtmedia.com/rms/onlineImages/TT_tree.jpg)
 
 
 ## Authors
