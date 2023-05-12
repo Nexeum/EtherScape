@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Documentation</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link
+            href="assets/js/google-code-prettify/prettify.css"
+            rel="stylesheet"
+        />
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+    </head>
+
+    <body data-spy="scroll" id="top">
+        <!-- Documentation Navbar -->
+
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a
+                        class="btn btn-navbar"
+                        data-target=".nav-collapse"
+                        data-toggle="collapse"
+                    ></a>
+                    <a class="brand" href="#">Documentation</a>
+
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a class="active" href="#top">Top</a></li>
+
+                            <li><a href="#markup">Markup</a></li>
+
+                            <li><a href="#plugins">Plugins Used</a></li>
+
+                            <li><a href="#styles">Styles</a></li>
+
+                            <li><a href="#javascript">JavaScript</a></li>
+
+                            <li><a href="#credits">Credits</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Navbar -->
+        <!-- Main Container Beginning -->
+
+        <div class="container">
+            <div class="masthead">
+                <h1>
+                    Arion – HTML Admin Dashboard Template – is the most developer friendly & highly customisable Admin Dashboard Template based on Bootstrap 4<br />
+                    <p></p>
+                    Documentation
+                </h1>
+
+                <p>
+                    Fully responsive multi-page template built on Bootstrap 4
+                    stable version
+                </p>
+
+                <p class="download-info">
+                    <a
+                        class="btn btn-primary btn-large"
+                        href="http://themeforest.net/user/netgon"
+                        >Item Support</a
+                    >
+                </p>
+            </div>
+            <!-- masthead -->
+
+            <div id="intro">
+                <p class="highlight hero-unit">
+                    Thank you for purchasing our item. If you have any questions
+                    that are beyond the scope of this help file, please feel
+                    free to email via our user page contact form
+                    <a href="http://themeforest.net/user/netgon">here</a>.
+                    Thanks so much!
+                </p>
+            </div>
+            <!-- intro -->
+
+            <section id="markup">
+                <div class="page-header">
+                    <h1>
+                        Markup
+                        <small>Markup customization and highlights</small>
+                    </h1>
+                </div>
+                <p>
+                    Arion is a Admin Dashboard HTML5 Template that contains 40
+                    pages. The template comes with beautiful vector graphics and icons that makes all the
+                    pages to look amazing across the retina devices.
+                </p>
+                <p>
+                    The layout is developed on the bootstrap grid, which makes
+                    it easy to convert it into an adaptive html template,
+                    Angular, Vue, React.js, Laravel and other.
+                </p>
+                <p>
+                    If you liked our template, please rate it for 5 stars, for
+                    us it is very important!
+                </p>
+                <hr />
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>General Markup</h3>
+
+                        <p>
+                            The general template structure is the same
+                            throughout the template. Here is the general
+                            structure.
+                        </p>
+                    </div>
+
+                    <div class="span9">
+                        <pre class="html" style='color: rgb(238, 255, 255); background-color: rgb(38, 50, 56); font-family: "Roboto Mono", Consolas, "Courier New", monospace; font-size: 12px; line-height: 1; white-space: pre; overflow: auto' >
+                            <div><span style="color:#89ddff">&lt;!</span><span style="color:#f07178">DOCTYPE</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">html</span><span style="color:#89ddff">&gt;</span></div> <div><span style="color:#89ddff">&lt;</span><span style="color:#f07178">html</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">class</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">no-js</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">lang</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">en</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">data-theme</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">light</span><span style="color:#89ddff">&quot;&gt;</span></div> &nbsp; <div><span style="color:#89ddff">&lt;</span><span style="color:#f07178">head</span><span style="color:#89ddff">&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">charset</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">utf-8</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">http-equiv</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">X-UA-Compatible</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">IE=edge</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">MobileOptimized</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">320</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">HandheldFriendly</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">True</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">viewport</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">width=device-width,&nbsp;initial-scale=1.0</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">title</span><span style="color:#89ddff">&gt;</span>Arion&nbsp;Admin&nbsp;Dashboard<span style="color:#89ddff">&lt;/</span><span style="color:#f07178">title</span><span style="color:#89ddff">&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">description</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">Arion&nbsp;&mdash;&nbsp;This&nbsp;is&nbsp;the&nbsp;best&nbsp;dashboard</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">msapplication-tap-highlight</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">no</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">mobile-web-app-capable</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">yes</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">application-name</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">Arion&nbsp;&mdash;&nbsp;This&nbsp;is&nbsp;the&nbsp;best&nbsp;dashboard</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-mobile-web-app-title</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">Arion&nbsp;Admin&nbsp;Dashboard</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-mobile-web-app-capable</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">yes</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-mobile-web-app-status-bar-style</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">black</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/bootstrap.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/apexcharts.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/tippy/tippy.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/flatpickr.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/select2.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/quill/quill.snow.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/quill/quill.core.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/filepond.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/filepond-plugin-image-preview.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/swiper-bundle.min.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">stylesheet</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">css/style.css</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">57x57</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-57x57.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">60x60</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-60x60.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">72x72</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-72x72.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">76x76</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-76x76.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">114x114</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-114x114.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">120x120</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-120x120.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">144x144</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-144x144.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">152x152</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-152x152.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">apple-touch-icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">180x180</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/apple-icon-180x180.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">type</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">image/png</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">192x192</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/android-icon-192x192.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">type</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">image/png</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">32x32</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/favicon-32x32.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">type</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">image/png</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">96x96</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/favicon-96x96.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">link</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">rel</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">icon</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">type</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">image/png</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">sizes</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">16x16</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">href</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">../assets/img/content/favicons/favicon-16x16.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<em>&lt;!--&nbsp;&lt;link&nbsp;rel=&quot;manifest&quot;&nbsp;href=&quot;../assets/img/content/favicons/manifest.json&quot;&nbsp;/&gt;--&gt;</em></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">msapplication-TileColor</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">#ffffff</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">msapplication-TileImage</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">/ms-icon-144x144.png</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">meta</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">name</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">theme-color</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">content</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">#ffffff</span><span style="color:#89ddff">&quot;&nbsp;/&gt;</span></div> <div><span style="color:#89ddff">&lt;/</span><span style="color:#f07178">head</span><span style="color:#89ddff">&gt;</span></div> &nbsp; <div><span style="color:#89ddff">&lt;</span><span style="color:#f07178">body</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">class</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">page-home</span><span style="color:#89ddff">&quot;&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">svg</span><span style="color:#89ddff">&nbsp;</span><span style="color:#c792ea">xmlns</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">http://www.w3.org/2000/svg</span><span style="color:#89ddff">&quot;&nbsp;</span><span style="color:#c792ea">style</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">border:&nbsp;0&nbsp;!important;&nbsp;clip:&nbsp;rect(0&nbsp;0&nbsp;0&nbsp;0)&nbsp;!important;&nbsp;height:&nbsp;1px&nbsp;!important;&nbsp;margin:&nbsp;-1px&nbsp;!important;&nbsp;overflow:&nbsp;hidden&nbsp;!important;&nbsp;padding:&nbsp;0&nbsp;!important;&nbsp;position:&nbsp;absolute&nbsp;!important;&nbsp;width:&nbsp;1px&nbsp;!important;</span><span style="color:#89ddff">&quot;</span></div> <div><span style="color:#89ddff">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color:#c792ea">class</span><span style="color:#89ddff">=&quot;</span><span style="color:#c3e88d">root-svg-symbols-element</span><span style="color:#89ddff">&quot;&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">symbol</span>&nbsp;<span style="color:#c792ea">id</span><span style="color:#89ddff">=</span><span style="color:#89ddff">&quot;</span><span style="color:#c3e88d">icon-action</span><span style="color:#89ddff">&quot;</span>&nbsp;<span style="color:#c792ea">viewBox</span><span style="color:#89ddff">=</span><span style="color:#89ddff">&quot;</span><span style="color:#c3e88d">0&nbsp;0&nbsp;22&nbsp;22</span><span style="color:#89ddff">&quot;</span><span style="color:#89ddff">&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;</span><span style="color:#f07178">path</span>&nbsp;<span style="color:#c792ea">d</span><span style="color:#89ddff">=</span><span style="color:#89ddff">&quot;</span><span style="color:#c3e88d">M14.2&nbsp;6.6H6.2V5L3&nbsp;7.8L6.2&nbsp;10.6V9H14.2V6.6ZM19&nbsp;13.4L15.8&nbsp;10.6V12.2H7.8V14.6H15.8V16.2L19&nbsp;13.4Z</span><span style="color:#89ddff">&quot;</span>&nbsp;<span style="color:#89ddff">/&gt;</span></div> <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#89ddff">&lt;/</span><span style="color:#f07178">symbol</span><span style="color:#89ddff">&gt;</span></div>
+                        </pre>
+                    </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>Features</h3>
+                        <p>Main template features</p>
+                    </div>
+                    <div class="span9">
+                        <ul>
+                            <li><b>CRM systems</b></li>
+                            <li><b>Analytics apps</b></li>
+                            <li><b>Banking apps</b></li>
+                            <li><b>Ecommerce</b></li>
+                            <li><b>Project management</b></li>
+                        </ul>
+                        <ol>
+                            <li>40 HTML pages</li>
+                            <li>Sass source files included</li>
+                            <li>
+                                Bootstrap 4 framework last version stable
+                            </li>
+                            <li>BEM naming and components coding</li>
+                            <li>100% responsive</li>
+                            <li>Valid HTML5 & CSS3 code</li>
+                            <li>Cross-browser optimization</li>
+                            <li>
+                                Retina-ready thanks to the vector graphics
+                                and icons
+                            </li>
+                            <li>
+                                Isotope filtering plugin for masonry
+                                galleries included ($25 value)
+                            </li>
+                            <li>
+                                Easy-to-customize and well commented code
+                            </li>
+                            <li>
+                                Well detailed & professionaly crafted UI
+                                elements
+                            </li>
+                            <li>Smooth CSS3 transitions & animations</li>
+                            <li>Great stylish typography</li>
+                          </ol>
+                    </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                    <div class="span12">
+                        <p class="highlight hero-unit">
+                            In the zip package you download you will find 2
+                            folders: HTML and DOCUMENTATION.
+                        </p>
+                        <ul>
+                            <li>
+                                HTML FOLDER: this is the folder that concerns
+                                you. It contains the main html and css files.
+                                Make the customizations you need and upload this
+                                folder files to you server.
+                            </li>
+
+                            <li>
+                                DOCUMENTATION FOLDER: info about this template
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+            </section>
+            <!-- Markup -->
+
+            <section id="plugins">
+                <div class="page-header">
+                    <h1>
+                        Plug-ins Used
+                        <small>Small description of every plugin used.</small>
+                    </h1>
+                </div>
+
+                <div class="row">
+                    <div class="span12">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Plugin Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>Bootstrap</code></td>
+                                    <td>
+                                        Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>jQuery</code></td>
+                                    <td>
+                                        jQuery is a fast, small, and
+                                        feature-rich JavaScript library. It
+                                        makes things like HTML document
+                                        traversal and manipulation, event
+                                        handling, animation, and Ajax much
+                                        simpler with an easy-to-use API that
+                                        works across a multitude of browsers.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>ECharts</code></td>
+                                    <td>
+                                        A Declarative Framework for Rapid Construction of Web-based Visualization
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>Apexcharts.js</code></td>
+                                    <td>
+                                        FusionCharts offers additional visualizations for your dashboards including:
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>Quilljs</code></td>
+                                    <td>
+                                        Your powerful rich text editor. WYSIWYG editor built for the modern web. With its modular architecture and expressive API, it is completely customizable to fit any need.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr />
+            </section>
+
+            <section id="styles">
+                <div class="page-header">
+                    <h1>
+                        Styles
+                        <small>Styles customization and highlights</small>
+                    </h1>
+                </div>
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>Stylesheets</h3>
+
+                        <p>
+                            Here's a list of the stylesheet files we are using
+                            with this template, you can find more information
+                            opening each file:
+                        </p>
+                    </div>
+
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>"css/bootstrap.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/apexcharts.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/filepond-plugin-image-preview.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/filepond.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/flatpickr.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/select2.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/swiper-bundle.min.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/tippy.css"</code></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/tippy/animations/"</code></td>
+                                    <td>Plugins for tippy for animation tooltips</td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/quill.core.css"</code></td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/quill.bubble.css"</code></td>
+                                    <td>Theme plugin for quill</td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/quill.snow.css"</code></td>
+                                    <td>Theme plugin for quill</td>
+                                </tr>
+                                <tr>
+                                    <td><code>"css/style.css"</code></td>
+                                    <td>
+                                        Main Stylesheet of the template - where
+                                        you will find most of the customizable
+                                        CSS.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <!-- Styles -->
+
+            <section id="javascript">
+                <div class="page-header">
+                    <h1>
+                        JavaScript
+                        <small>JavaScript customization and highlights</small>
+                    </h1>
+                </div>
+
+                <div class="row">
+                    <div class="span3">
+                        <h3>JavaScript Files</h3>
+                        <p>
+                            Here's a list of the javascript files we are using
+                            with this template.
+                        </p>
+                    </div>
+
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Plugin Filename</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <code>"js/gsap/gsap.min.js"</code><br>
+                                        <code>"js/gsap/ScrollToPlugin.min.js"</code><br>
+                                        <code>"js/gsap/ScrollTrigger.min.js"</code><br>
+                                    </td>
+                                    <td>Professional-grade JavaScript animation for the modern web</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/popper.min.js"</code>
+                                    </td>
+                                    <td>Tooltip & Popover Positioning Engine</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/popper.min.js"</code>
+                                    </td>
+                                    <td>Tooltip & Popover Positioning Engine</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/jquery.min.js"</code>
+                                    </td>
+                                    <td>jQuery library.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/popper.min.js"</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/bootstrap.bundle.min.js"</code>
+                                    </td>
+                                    <td>Bootstrap's javascript file.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/imagesloaded.pkgd.min.js"</code>
+                                    </td>
+                                    <td>
+                                        Checks if all images are loaded or
+                                        confirmed broken. That allows to build
+                                        masonry grid correctly.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/grid/masonry.pkgd.min.js"</code>
+                                    </td>
+                                    <td>Creates photo portfolio layout.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/grid/isotope.pkgd.min.js"</code>
+                                    </td>
+                                    <td>Filters portfolio categories.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>"js/vendor/swiper-bundle.min.js"</code>
+                                    </td>
+                                    <td>Most Modern Mobile Touch Slider.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/calendar/flatpickr/flatpickr.min.js</code>
+                                    </td>
+                                    <td>flatpickr is a lightweight and powerful datetime picker.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/charts/apexcharts/apexcharts.min.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/charts/circle-progress.min.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/charts/echarts.common.min.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/cleave/cleave.min.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/editor/quill.min.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/filepond/filepond.min.js</code>
+                                    </td>
+                                    <td>A JavaScript library that can upload anything you throw at it, optimizes images for faster uploads, and offers a great, accessible, silky smooth user experience.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/filepond/filepond-plugin-image-preview.min.js</code>
+                                    </td>
+                                    <td>Extends plugin</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/jqvmap/jquery.vmap.min.js</code>
+                                    </td>
+                                    <td>jQuery Vector Map</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/jqvmap/jquery.vmap.sampledata.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/jqvmap/jquery.vmap.world.js</code>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/scrollmagic/ScrollMagic.min.js</code><br>
+                                        <code>js/vendor/scrollmagic/debug.addIndicators.min.js</code>
+                                    </td>
+                                    <td>The javascript library for magical scroll interactions.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/select2.min.js</code>
+                                    </td>
+                                    <td>The jQuery replacement for select boxes</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/simplebar.min.js</code>
+                                    </td>
+                                    <td>SimpleBar does only one thing: replace the browser's default scrollbar with a custom CSS-styled one without losing performances.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <code>js/vendor/tippy-bundle.umd.min.js</code>
+                                    </td>
+                                    <td>Tippy.js is the complete tooltip, popover, dropdown, and menu solution for the web</td>
+                                </tr>
+                                <tr>
+                                    <td><code>js/components.js"</code></td>
+                                    <td>
+                                        The file that contains all the components Functions constructors.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>js/common.js"</code></td>
+                                    <td>
+                                        js file for components initialization.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr />
+            </section>
+            <!-- JavaScript -->
+
+            <section id="credits">
+                <div class="page-header">
+                    <h1>
+                        Credits Files
+                        <small>Some of our credits and sources</small>
+                    </h1>
+                </div>
+
+                <p>
+                    We've used the following images, icons or other files as
+                    listed.
+                </p>
+
+                <ol>
+                    <li><a href="http://jquery.com/">jQuery</a></li>
+                    <li><a href="https://popper.js.org/">Popper.js</a></li>
+                    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+                    <li><a href="https://github.com/desandro/imagesloaded">imagesLoaded</a></li>
+                    <li><a href="http://masonry.desandro.com/">Masonry</a></li>
+                    <li><a href="http://isotope.metafizzy.co/">Isotope</a></li>
+                    <li><a href="https://echarts.apache.org/en/index.html">ECharts</a></li>
+                    <li><a href="https://apexcharts.com/">ApexCharts </a></li>
+                    <li><a href="http://kottenator.github.io/jquery-circle-progress/">jquery-circle-progress</a></li>
+                    <li><a href="https://quilljs.com/">Quill </a></li>
+                    <li><a href="https://flatpickr.js.org/">flatpickr </a></li>
+                    <li><a href="https://pqina.nl/filepond/">filepond</a></li>
+                    <li><a href="https://greensock.com/gsap/">gsap</a></li>
+                    <li><a href="https://scrollmagic.io/">Scrollmagic</a></li>
+                    <li><a href="http://www.idangero.us/swiper">Swiper</a></li>
+                    <li><a href="https://github.com/Grsmto/simplebar">SimpleBar </a></li>
+                    <li><a href="https://atomiks.github.io/tippyjs/">Tippy.js </a></li>
+                    <li><a href="https://github.com/10bestdesign/jqvmap">JQVMap </a></li>
+                    <li><a href="https://select2.org/">Select2 </a></li>
+                    <li><a href="https://nosir.github.io/cleave.js/">Cleave.js</a></li>
+                    <li><a href="http://nashio.github.io/star-rating-svg">star-rating-svg</a></li>
+                </ol>
+
+                <h3>Fonts & Icons</h3>
+                <ol>
+                    <li><a href="http://ionicons.com/">Ionicons</a></li>
+                    <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+                    <li>
+                        <a href="https://www.google.com/fonts/">Google Fonts</a>
+                    </li>
+                </ol>
+
+                <h3>Images</h3>
+                <ol>
+                    <li><a href="http://www.unsplash.com">Unsplash</a></li>
+                    <li><a href="http://www.pixabay.com">Pixabay</a></li>
+                    <li><a href="http://startupstockphotos.com/">Startupstockphotos.com</a></li>
+                    <li><a href="https://stocksnap.io/">Stocksnap.io</a></li>
+                    <li><a href="https://www.shutterstock.com/ru/">Shutterstock</a></li>
+                </ol>
+            </section>
+            <!-- Credits -->
+            <hr />
+
+            <p class="note">
+                <strong>Note: </strong
+                ><i
+                    >Images you may have seen in the live preview are not
+                    included in the final item purchase.</i
+                >
+            </p>
+
+            <hr />
+
+            <div class="goodbye">
+                <p>
+                    Once again, thank you so much for purchasing this item. As
+                    we said at the beginning, we'd be glad to help you if you
+                    have any questions relating to this item. If you have a more
+                    general question relating to the themes on ThemeForest, you
+                    might consider visiting the forums and asking your question
+                    in the "Item Discussion" section.
+                </p>
+
+                <p>
+                    Our profile page -
+                    <a href="http://themeforest.net/user/netgon"
+                        >http://themeforest.net/user/netgon</a
+                    >
+                </p>
+            </div>
+            <hr />
+
+            <footer>
+                <p>© Netgon 2016</p>
+            </footer>
+        </div>
+        <!-- /container -->
+
+        <!-- JS -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        <script src="assets/js/bootstrap-transition.js"></script>
+        <script src="assets/js/bootstrap-alert.js"></script>
+        <script src="assets/js/bootstrap-modal.js"></script>
+        <script src="assets/js/bootstrap-dropdown.js"></script>
+        <script src="assets/js/bootstrap-scrollspy.js"></script>
+        <script src="assets/js/bootstrap-tab.js"></script>
+        <script src="assets/js/bootstrap-tooltip.js"></script>
+        <script src="assets/js/bootstrap-popover.js"></script>
+        <script src="assets/js/bootstrap-button.js"></script>
+        <script src="assets/js/bootstrap-collapse.js"></script>
+    </body>
+</html>
