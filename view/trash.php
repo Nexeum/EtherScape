@@ -1,6 +1,7 @@
 <?php
-
-use function PHPSTORM_META\type;
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 
 session_start();
 include "../model/database.php";
@@ -143,7 +144,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
                         <!-- modify  -->
                         <?php
                         $files = null;
-                        if (@mysqli_num_rows($folder) == 0) {
+                        if (mysqli_num_rows($folder) == 0) {
                             if (isset($_GET["q"]) && $_GET["q"] != "") {
                                 $q = $_GET["q"];
                                 $files = mysqli_query($con, "select * from trash where user_id=$my_user_id and folder_id is NULL and (filename like '%$q%' or description like '%$q%') order by is_folder desc, created_at desc");
@@ -174,7 +175,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
                         <?php endif; ?>
 
                         <!-- empieza -->
-                        <?php if (@mysqli_num_rows($files) > 0) : ?>
+                        <?php // if (mysqli_num_rows($files) > 0) : ?>
 
                             <div class="table-wrapper tab-content">
                                 <div class="tab-pane fade" id="tab-grid">
@@ -381,7 +382,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
 
                                 ?>
                                 <div class="tab-pane active" id="tab-list">
-                                    <?php if (mysqli_num_rows($fs) != 0) : ?>
+                                    <?php //if (mysqli_num_rows($fs) != 0) : ?>
                                         <section class="file-manager__section">
                                             <h3 class='file-manager__section-title'>Folders</h3>
                                             <div class="file-manager__section-cards">
@@ -477,7 +478,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
                                                 <?php endforeach; ?>
                                             </div>
                                         </section>
-                                    <?php endif; ?>
+                                    <?php //endif; ?>
                                     <?php
                                     $file_id = null;
                                     if (isset($_GET['folder'])) {
@@ -496,7 +497,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
 
                                     ?>
 
-                                    <?php if (mysqli_num_rows($fsq) != 0) : ?>
+                                    <?php //if (mysqli_num_rows($fsq) != 0) : ?>
                                         <section class="file-manager__section">
                                             <h3 class='file-manager__section-title'>Files</h3>
                                             <div class="file-manager__section-cards">
@@ -592,10 +593,10 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
                                                 <?php endforeach; ?>
                                             </div>
                                         </section>
-                                    <?php endif; ?>
+                                    <?php //endif; ?>
                                 </div>
                             </div>
-                        <?php else : ?>
+                        <?php //else : ?>
                             <div class="table-wrapper tab-content">
                                 <div class="files-card">
                                     <div class="files-card__content" style="align-items:center;">
@@ -603,7 +604,7 @@ if (isset($_GET["folder"]) && $_GET["folder"] != "") {
                                     </div>
                                 </div>
                             </div>
-                        <?php endif; ?>
+                        <?php //endif; ?>
                     </div>
                 </div>
                 <div class="backdrop-sidebar-panel"></div>
