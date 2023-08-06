@@ -16,7 +16,8 @@ function createAvatarImage($string)
 
         imagecolorallocate($avatar, $r, $g, $b);
         $textcolor = imagecolorallocate($avatar, 255, 255, 255);
-        $font = 'D:\xampp\htdocs\bitos\assets\fonts\bold.ttf';
+        $font =dirname(__DIR__).'\assets\fonts\bold.ttf';
+        echo $font;
         $font = mb_convert_encoding($font, 'big5', 'utf-8');
 
         include "sizeavatar.php";
