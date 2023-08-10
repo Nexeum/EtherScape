@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "../model/database.php";
+if(!@include("../model/database.php")) throw new Exception("Failed to include ''../model/database.php");
 
 if (isset($_GET["tkn"]) && $_GET["tkn"] == $_SESSION["tkn"]) {
 
@@ -17,7 +18,7 @@ if (isset($_GET["tkn"]) && $_GET["tkn"] == $_SESSION["tkn"]) {
     if (!is_dir($path)) {
         mkdir($path, 0777);
     }
-    
+
     if ($is_folder) {
         $datos = mysqli_query($con, "SELECT * FROM file where folder_id=$id") or trigger_error("Query Failed! SQL: $movef - Error: " . mysqli_error($con), E_USER_ERROR);
 
@@ -25,6 +26,8 @@ if (isset($_GET["tkn"]) && $_GET["tkn"] == $_SESSION["tkn"]) {
             $name = $data['filename'];
             $moved = rename($url . $name, $path . $name);
         }
+
+        $moved = true;
 
         if ($moved) {
             $movef = mysqli_query($con, "INSERT INTO trash SELECT * FROM file where id=$id") or trigger_error("Query Failed! SQL: $movef - Error: " . mysqli_error($con), E_USER_ERROR);
